@@ -1,0 +1,13 @@
+{
+  "username" : "harloom",
+  "brutePassword" : ["passexample","passexample1","passexample2"],
+  "commands" : "a=`uname -srvm`; ip=`hostname -I | awk '{print $1}'`;  echo $ip; echo $a; cat /etc/os-release  ",
+  "machines" : [
+    {
+      "hostname" : "10.0.14.203"
+    },
+    {
+      "hostname" : "10.0.14.201"
+    }
+  ]
+}
