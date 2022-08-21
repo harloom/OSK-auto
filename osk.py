@@ -136,8 +136,8 @@ def main(argv) :
 
             for line in ssh_stderr:
                 arr_line.append(line.strip('\n'))
-                
-                
+          o['username'] = username    
+          o['password'] = password      
           o['data'] = arr_line
           print(o)
           outputs.append(o)
